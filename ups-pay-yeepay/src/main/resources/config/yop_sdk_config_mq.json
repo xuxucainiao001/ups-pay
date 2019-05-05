@@ -1,0 +1,31 @@
+{
+  "app_key": "SQKK10020981510",
+  //"aes_secret_key": "",
+  "server_root": "https://open.yeepay.com/yop-center",
+  //"server_root": "http://10.151.30.80:18064/yop-center",
+  "yos_server_root": "https://yos.yeepay.com/yop-center",
+  "yop_public_key": [
+    {
+      "store_type": "string",
+      "cert_type": "RSA2048",
+      "value": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6p0XWjscY+gsyqKRhw9MeLsEmhFdBRhT2emOck/F1Omw38ZWhJxh9kDfs5HzFJMrVozgU+SJFDONxs8UB0wMILKRmqfLcfClG9MyCNuJkkfm0HFQv1hRGdOvZPXj3Bckuwa7FrEXBRYUhK7vJ40afumspthmse6bs6mZxNn/mALZ2X07uznOrrc2rk41Y2HftduxZw6T4EmtWuN2x4CZ8gwSyPAW5ZzZJLQ6tZDojBK4GZTAGhnn3bg5bBsBlw2+FLkCQBuDsJVsFPiGh/b6K/+zGTvWyUcu+LUj2MejYQELDO3i2vQXVDk7lVi2/TcUYefvIcssnzsfCfjaorxsuwIDAQAB"
+    }
+  ],
+  //"isv_private_key": [
+  // {
+  // "store_type": "file_p12",
+  // "cert_type": "RSA2048",
+  //  "password": "123456",
+  //  "value": "/10000466938CFCA.pfx",
+  //   }
+  // ],
+  "isv_private_key": [
+    {
+      "store_type": "string",
+      "cert_type": "RSA2048",
+      "value": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx9VgEwKqDg21uM9kvrp+LkOBjSc7/j4Ge6Z2lPzVPvQ0NHHnXL55J8Mtv4t5OfgrXmDzkS+HQAmVH0fDkTgwM9rKY1SfyFZ4756jV78Z+7o3xbpg7C4uHXVs6QLoU8aNJvLReHdUexA2Xav6OhfIPHbYwbdAVRzrgPUFzqBbGcbGsXhIa+zxUAGWM5uJMtk3e5lA2UOE05XYRKE+0DHSnDkDUwGQseDKgWgsdpj9xzu0JD1TCm3l2cgZMK/3TeHnFqj7Uh+/hBA/BMIehvzFHlAHLQnlizDqp2eI14tcVvqnG/FnFR6JoS6qMnrJ4e9OtsefrlLzyZIS4n8p/fk4LAgMBAAECggEAE20kcXRfc3bRPH1QIVU52RWfdnHpX7At5rKQQSiQFxxx7x341lA+QnUU8tRRuet8Hy02bHeKIYJkGv3PLaUFdL7TdT1DnI4r6qnZyOzhVBw823+xV4oQQ7PMZc9eC4jrRH04iqj4CbaTg0AspKijlBnauG5XD5OUg5kRlYtiXRbUpG1m1b9pMR+q7TRN0SuvZYF55dj6MhryOGUUmhuIRmQY76SXGK89UZyhLgcwiuPvsJWTYwN3AqxzvDVOW9Slpl7Yc3S+U+yuXLn8iZKc+i3I0cnIuJCmEmPoC0q6uyAIHbowM/4OEm1cthR/kKd6sZwNdAEl7WhmeVFnqx75cQKBgQC1Pul4yVW/GinSIoT7vcUXPM1qR4sVA/Wpr5rWBOj+MyHi6/3tuZhTQgzWtATLDV6q9AJL18Nrcid8ABuSLiZ86YyzA/3t3eUZuq5mzzj2uFUd7e80rSV04OuDyXn3HP4cX9Y84QesZJi652V+TijAvAajtpUWq2K4/ct/F7gVGwKBgQD7W1RibxHHFmTTI2pyNCpwxLE/zAUB4ZBuGP9CsLngUItK9ZS/MsfNWc6A3TKZ7qJw/9oJ5GoLQakzzZSaDUhYRhHvVEfK5NR8Uth2xx2xH4hadbqRkM+rBgUhIB8pDvPJFIzOvYLX/iw8l/VOPvU+W6N2ormBMqcHlmf6lndp0QKBgDQhbkHBlxoqSlEYgKtvv9qZMHQbM9PNmcE+swhPzTwgNOTx/816jmeUHeE7Ug2dQNdm66oo2xpycQzncwauo39WJZPv1/+szRKDcVo8zCOajVDYeO7rxlRBxTvYnW4INsaugg5soypgnNVVbQnRLUOSUU6RW3xzuyd+SCO8DMR1AoGBAJj1DdfMsSvOs9JMZfVTS1ROTXJ+K7nmUqa87XDe7G3Vdb5KzZbARxfug5ylfqpvrkhHWZ7Vcbah4V5Vxw0r8g9NrJJQXlPYhnmVTIaTSr1DbA1oQP1d+xGe2zY6PtwUbkO6DqmsZ1gbIz5IVo2kAEdPKp0CDxLRCRWz8FhsggRRAoGBAJtLeODiNYbvpEu10vrSHQLZmlItRD0BFxJvaz4wq9WYEH9RzfsnDBk1psMLEOKZjPyemKdhL9lqGiajR2A77rEvCxkXHJ5YU1OyZJp/ooFzmWJ26Zoz/fingn5n7WYDqn6RT7JvgpCD+g42KF72GgSVp8Rnk+XNu+V3Rc3a1fqC"
+    }
+  ],
+  "default_protocol_version": "yop-auth-v2",
+  "sdk_version": "2.0.0-RC3"
+}

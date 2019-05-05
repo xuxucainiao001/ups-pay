@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.pgy.ups.pay</groupId>
+		<artifactId>ups-pay</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>ups-pay-commons</artifactId>
+	<packaging>jar</packaging>
+
+	<!-- hibernate 验证框架 -->
+	<dependencies>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+
+		<!-- ups公共部分 -->
+		<dependency>
+			<groupId>com.pgy.ups</groupId>
+			<artifactId>ups-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.pgy.ups.pay</groupId>
+			<artifactId>ups-pay-interface</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.pgy</groupId>
+			<artifactId>data-handler-service</artifactId>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<finalName>ups-pay-commons</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
